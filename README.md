@@ -7,10 +7,14 @@ You can find the original superset setup at https://github.com/apache/superset i
 
 but I needed a simpler setup just including superset for development. 
 
-# Installation
+# Installation / docker-compose
 
 `docker-compose up -d` 
 and it will build automatically. 
+
+## docker run
+
+`docker run guestros/apache-superset-simple -p 8088:8088`
 
 ## default user and password
 
