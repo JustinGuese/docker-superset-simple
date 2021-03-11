@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  superset:
+    build: src/
+    image: superset
+    ports:
+      - 8088:8088
+    volumes:
+      - superset:/root/.superset/
+
+volumes:
+  superset:
